@@ -1,0 +1,20 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #21325E;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0 0 10px;
+    font-family: 'McLaren', cursive;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.header code {
+    font-size: 1.5rem;
+}

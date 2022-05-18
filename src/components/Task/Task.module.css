@@ -1,0 +1,40 @@
+.task {
+    width: 300px;
+    margin: 25px;
+    padding: 20px;
+    float: left;
+    border-radius: 0 20px 0 0;
+    box-shadow: 10px 0 10px #cccccc;
+}
+
+.task h3,
+.task p {
+    padding: 10px 0 10px 10px;
+    font-family: 'McLaren', cursive;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-left: 5px solid #2666CF;
+    color: #3E497A;
+}
+
+.task code {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #EA5C2B;
+}
+
+.lineThrough h3,
+.lineThrough p {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #F14A16;
+}
+
+.notDueDate {
+    border-bottom: 10px solid #019267;
+}
+
+.dueDate {
+    border-bottom: 10px solid #F1D00A;
+}

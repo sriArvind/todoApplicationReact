@@ -1,0 +1,43 @@
+.addButton {
+    display: block;
+    margin: 0 0 0 auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #019267;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: #2666CF;
+}
+
+.addButton:active {
+    transform: scale(0.9);
+}
+
+.delButton {
+    display: block;
+    margin: 20px 0 0 auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #B33030;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.delButton:hover {
+    background-color: #FF1818;
+}
+
+.delButton:active {
+    transform: scale(0.9);
+}
